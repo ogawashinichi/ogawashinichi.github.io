@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新聞記者のもやもや話 | X Space Archive</title>
+    <link rel="stylesheet" href="archive.css">
+    <!-- Google Fonts: Pop and Rounded (Same as main site) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;800&family=Zen+Maru+Gothic:wght@500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar pop-shadow">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Oga<span>Shin</span> ✨</a>
+            <ul class="nav-links">
+                <li><a href="index.html">← Profileに戻る</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="archive-header pop-bg-yellow bg-grid">
+        <div class="container text-center">
+            <div class="badge fade-in-up">X Space Archive 🎙️</div>
+            <h1 class="title fade-in-up delay-1">新聞記者の<br><span class="color-pink">もやもや話</span></h1>
+            <p class="description fade-in-up delay-2">ニュースの裏側で感じた「もやもや」を、ゆる〜く語る夜のスペース。<br>過去の配信はこちらから聴けます！🎧</p>
+        </div>
+        <!-- Decorative Shapes -->
+        <div class="blob shape-pink header-shape1"></div>
+        <div class="blob shape-blue header-shape2"></div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container section">
+
+        <!-- Filter Bar -->
+        <div class="filter-bar reveal pop-card">
+            <h3>エピソードを探す 🔍</h3>
+            <div class="tags">
+                <button class="tag tag-active" data-filter="all">すべて</button>
+                <button class="tag" data-filter="取材の裏側">#取材の裏側</button>
+                <button class="tag" data-filter="駆け出し時代">#駆け出し時代</button>
+                <button class="tag" data-filter="デジタル報道">#デジタル報道</button>
+            </div>
+        </div>
+
+        <!-- Featured Episode (Latest) -->
+        <div class="featured-episode reveal delay-1 pop-card bounce-hover pop-bg-blue mt-4">
+            <div class="episode-badge bg-pink">🎧 最新回</div>
+            <div class="episode-content flex-row">
+                <div class="episode-info">
+                    <span class="episode-date">2026年3月1日 配信</span>
+                    <h2 class="episode-title">#015：「バズる記事」と「伝えたい記事」のジレンマ</h2>
+                    <p class="episode-desc">PV数は大事だけど、本当に書きたい事とのバランスをどう取る？今回はデジタル編集部ならではの「数字ともやもや」について語りました。ゲスト：〇〇記者</p>
+                    <div class="tags-small">
+                        <span class="tag-small">#デジタル報道</span>
+                        <span class="tag-small">#編集会議</span>
+                    </div>
+                </div>
+                <div class="episode-player">
+                    <div class="player-circle pop-shadow pop-border">
+                        <span class="play-icon">▶</span>
+                    </div>
+                    <span class="player-time">45:20</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Episode List -->
+        <h2 class="section-title mt-5 reveal">過去の配信 📻</h2>
+
+        <div class="episode-list reveal delay-1">
+
+            <!-- Episode Item -->
+            <div class="episode-item pop-card bounce-hover" data-category="取材の裏側">
+                <div class="episode-header">
+                    <span class="episode-number">#014</span>
+                    <span class="episode-date">2026年2月15日</span>
+                </div>
+                <h3 class="episode-title-small">夜の繁華街で心が折れかけた日</h3>
+                <p class="episode-desc-small">突撃取材の難しさと、取材対象者と信頼関係を築くまでの泥臭い道のりについて。</p>
+                <div class="episode-footer">
+                    <span class="tag-small">#取材の裏側</span>
+                    <button class="btn-play bg-yellow pop-shadow">▶ 再生する (32:10)</button>
+                </div>
+            </div>
+
+            <!-- Episode Item -->
+            <div class="episode-item pop-card bounce-hover" data-category="駆け出し時代">
+                <div class="episode-header">
+                    <span class="episode-number">#013</span>
+                    <span class="episode-date">2026年1月28日</span>
+                </div>
+                <h3 class="episode-title-small">初めての特ダネ（と、その後の大失敗）</h3>
+                <p class="episode-desc-small">熱血新人時代のエピソード。特ダネを取った翌日にやらかした恥ずかしい話。</p>
+                <div class="episode-footer">
+                    <span class="tag-small">#駆け出し時代</span>
+                    <button class="btn-play bg-yellow pop-shadow">▶ 再生する (40:05)</button>
+                </div>
+            </div>
+
+            <!-- Episode Item -->
+            <div class="episode-item pop-card bounce-hover" data-category="取材の裏側">
+                <div class="episode-header">
+                    <span class="episode-number">#012</span>
+                    <span class="episode-date">2026年1月10日</span>
+                </div>
+                <h3 class="episode-title-small">情報源はどこから？「タレコミ」の真実</h3>
+                <p class="episode-desc-small">情報提供者との距離感や、情報の裏取り（ウラトリ）のプレッシャーについて。</p>
+                <div class="episode-footer">
+                    <span class="tag-small">#取材の裏側</span>
+                    <button class="btn-play bg-yellow pop-shadow">▶ 再生する (35:50)</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-center mt-4 reveal">
+            <button class="btn-load-more pop-border">もっと見る 👇</button>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 OgaShin. Made with 💖 & ☕️</p>
+            <p class="footer-note">※音声はデモ用のため再生できません</p>
+        </div>
+    </footer>
+
+    <!-- Simulated Audio Player (Fixed Bottom sticky) -->
+    <div class="sticky-player pop-shadow-up pop-border" style="display: none;" id="stickyPlayer">
+        <div class="player-container">
+            <div class="player-info">
+                <span class="playing-now">Now Playing:</span>
+                <strong id="playingTitle">#015：「バズる記事」と...</strong>
+            </div>
+            <div class="player-controls">
+                <button class="ctrl-btn">⏪</button>
+                <button class="ctrl-btn play-pause">⏸</button>
+                <button class="ctrl-btn">⏩</button>
+            </div>
+            <div class="progress-container">
+                <span class="time-current">12:34</span>
+                <div class="progress-bar pop-border">
+                    <div class="progress" style="width: 30%;"></div>
+                </div>
+                <span class="time-total">45:20</span>
+            </div>
+            <button class="close-player">✖</button>
+        </div>
+    </div>
+
+    <script src="archive.js"></script>
+</body>
+
+</html>
