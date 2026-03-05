@@ -1,1 +1,0 @@
-# ogawashinichi.github.io
